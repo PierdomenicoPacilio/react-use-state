@@ -43,50 +43,76 @@ common
 
 
 
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #f4f4f4, #e0f7fa);
+  color: #222;
+}
+
+
 /******** 
-Header
+HEADER
 ********/
 
 header {
-  background-color: gainsboro;
-  padding: 30px;
+  background-color: #00796b;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-h1 {
-  margin-left: 30px;
-  color: darkblue;
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
 }
-
-
 
 /******** 
-Main
+MAIN
 ********/
 
 main {
-  padding: 30px;
+  padding: 2rem;
+  text-align: center;
 }
 
 button {
-  margin-left: 30px;
-  padding: 10px 15px;
-  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px solid #26a69a;
+  color: #00796b;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.description {
-  margin: 40px 30px;
-  max-width: 70%;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 10px;
+button:hover {
+  background-color: #26a69a;
+  color: white;
 }
 
 .selected {
-  background-color: gold;
-  color: black;
+  background-color: #004d40;
+  color: white;
+  border: 2px solid #004d40;
+  font-weight: bold;
 }
 
 .not-selected {
-  background-color: blue;
-  color: white;
+  opacity: 0.85;
+}
+
+.description {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
 }
