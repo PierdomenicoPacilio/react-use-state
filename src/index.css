@@ -48,8 +48,13 @@ Header
 ********/
 
 header {
-  background-color: lightgray;
-  padding: 20px;
+  background-color: gainsboro;
+  padding: 30px;
+}
+
+h1 {
+  margin-left: 30px;
+  color: darkblue;
 }
 
 

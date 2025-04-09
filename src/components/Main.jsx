@@ -1,6 +1,7 @@
-import Button from "./Button"
 import languages from "../assets/languages"
 import { useState } from "react"
+import Card from "./Card"
+import Button from "./Button"
 
 export default function Main() {
 
@@ -13,6 +14,6 @@ export default function Main() {
             onClick={() => setSelectedLanguage(language)}
             className={selectedLanguage === language ? 'selected' : 'not-selected'}
         ></Button>)}
-        <div className="description">{selectedLanguage === null ? 'Nessun linguaggio selezionato' : selectedLanguage.description}</div>
+        <Card selectedLanguage={selectedLanguage} />
     </main>
 }
