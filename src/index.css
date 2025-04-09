@@ -67,3 +67,11 @@ button {
   padding: 10px;
   border-radius: 10px;
 }
+
+.description {
+  margin: 40px 30px;
+  max-width: 60%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
